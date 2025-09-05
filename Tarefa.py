@@ -1,6 +1,6 @@
 import os
 
-# Garante que a pasta exista
+
 os.makedirs("Estrategia_das_torres", exist_ok=True)
 
 tarefas = []
