@@ -1,4 +1,4 @@
-import os
+import os 
 
 
 os.makedirs("Estrategia_das_torres", exist_ok=True)
