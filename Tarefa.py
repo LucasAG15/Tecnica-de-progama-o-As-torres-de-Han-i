@@ -29,9 +29,9 @@ while True:  # + laço de repetiçao já verdadeiro
 
     elif escolha == 2:  # + se a opção for 2
         if not tarefas:  # + se a lista estiver vazia faz o comando a baixo
-            print("📭 Nenhuma tarefa salva.\n")
+            print(" Nenhuma tarefa salva.\n")
         else:
-            print("\n📋 Lista de Tarefas:")
+            print("\n Lista de Tarefas:")
             # + mostra cada tarefa em ordem de posição e numerada, (para cada numero e descrição numere as descrições da lista de tarefas começando por 1)
             for numero, descricao in enumerate(tarefas, start=1):
                 # + função para mostrar para o usuario as tarefas com a permição para inserção de dados de de texto
@@ -40,9 +40,9 @@ while True:  # + laço de repetiçao já verdadeiro
 
     elif escolha == 3:      # + se a opção for 3
         if not tarefas:
-            print("📭 Nenhuma tarefa para marcar como concluída.\n")
+            print(" Nenhuma tarefa para marcar como concluída.\n")
         else:
-            print("\n📋 Tarefas:")
+            print("\nTarefas:")
             for numero, descricao in enumerate(tarefas, start=1):
                 print(f"{numero} - {descricao}")
 
@@ -53,7 +53,7 @@ while True:  # + laço de repetiçao já verdadeiro
                 if 1 <= num <= len(tarefas):
                     # + apos o numero ser escolhido printa a tarefa como concluida
                     print(f" {tarefas[num-1]} concluída!")
-                    tarefas[num-1] += " (✔ concluída)"
+                    tarefas[num-1] += " ( concluída)"
                 else:
                     print(" Número inválido!")
             except ValueError:
@@ -69,6 +69,7 @@ while True:  # + laço de repetiçao já verdadeiro
 
     else:
         print(" Opção inválida, tente novamente.\n")
+
 
 
 
