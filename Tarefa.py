@@ -9,7 +9,7 @@ tarefas = []  # A BAIXO DO TOPO (Começo do codgo: Delcaraçao de lista)
 
 while True:  # + laço de repetiçao já verdadeiro
     try:  # + comando para melhor tratameto de exeções no codgo, como no exemplo a baixo
-        escolha = int(input(  # + variavel decalrada com comando "Input" para o usuario escrever o INT na frente siginifica que deve ser obrigatoriamente um inteiro
+        escolha = int(input(  # + variavel declarada com comando "Input" para o usuario escrever o INT na frente siginifica que deve ser obrigatoriamente um inteiro
             "AGENDA DE TAREFAS\n"
             "1 - ADICIONAR TAREFA\n"
             "2 - MOSTRAR TAREFAS SALVAS\n"
@@ -69,5 +69,6 @@ while True:  # + laço de repetiçao já verdadeiro
 
     else:
         print(" Opção inválida, tente novamente.\n")
+
 
 
